@@ -72,7 +72,7 @@ nav {
 .bus-list {
   display: inline-block;
   height: 28px;
-  margin-top: 12px;
+  margin-top: 6px;
   margin-left: 16px;
   margin-right: 16px;
 }
@@ -82,8 +82,17 @@ li {
   margin-right: 16px;
   padding-top: 12px;
   padding-bottom: 12px;
-  height: 16px;
   vertical-align: middle;
+  height: 16px;
+  width: 24px;
+}
+
+li-2 {
+  width: 150px;
+}
+
+li-3 {
+  width: 150px;
 }
 
 div#underlineiItem {
@@ -98,7 +107,7 @@ h3 {
 h4 {
   font-size: 15px;
   font-weight: 600;
-    vertical-align: top;
+  vertical-align: top;
 }
 
 .stop-location {
@@ -112,9 +121,10 @@ h4 {
 }
 
 .heading {
-  height: 28px;
+  height: 30px;
+  padding-top: 6px;
+  padding-bottom: 12px;
   padding-left: 16px;
-  padding-top: 16px;
   background-color: #EEEEEE;
 }
 
@@ -126,5 +136,4 @@ h4 {
 
 div#navbarContainer {
     height: 48px;
-vertical-align: bottom;
 }
