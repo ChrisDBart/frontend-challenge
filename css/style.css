@@ -16,7 +16,6 @@ nav {
 }
 
 .content {
-  margin: 0 auto;
   width: 360px;
   height: 458px;
   background-color: #FFF;
@@ -72,27 +71,69 @@ nav {
 .bus-list {
   display: inline-block;
   height: 28px;
-  margin-top: 6px;
   margin-left: 16px;
-  margin-right: 16px;
+}
+
+.line {
+  width: 40px;
+}
+
+.destination {
+  width: 155px;
+}
+
+.frequency {
+  width: 125px;
+}
+
+.line-rr {
+  width: 40px;
+  color: #D0021B;
+}
+
+.destination-rr {
+  width: 155px;
+  color: #D0021B;
+}
+
+.frequency-rr {
+  width: 125px;
+  color: #D0021B;
+}
+
+.line-oos {
+  width: 40px;
+  color: #A9A8A8;
+}
+
+.destination-oos {
+  width: 155px;
+  color: #A9A8A8;
+}
+
+.frequency-oos {
+  width: 125px;
+  color: #A9A8A8;
 }
 
 li {
   display: inline-block;
-  margin-right: 16px;
   padding-top: 12px;
   padding-bottom: 12px;
   height: 16px;
-  width: 24px;
+  line-height: 20px;
 }
 
-li-2 {
-  width: 150px;
+div#double-line {
+    padding-bottom: 6px;
 }
 
-li-3 {
-  width: 150px;
+.sm {
+  font-size: 14px;
+  font-style: italic;
 }
+
+
 
 div#underlineiItem {
   border-bottom: 1.5px solid #EEEEEE;
@@ -120,7 +161,6 @@ h4 {
 
 .heading {
   height: 30px;
-  padding-top: 6px;
   padding-bottom: 12px;
   padding-left: 16px;
   background-color: #EEEEEE;
@@ -130,6 +170,22 @@ h4 {
   height: 24px;
   border-bottom: 2px solid #FEC006;
   padding-bottom: 12px;
+}
+
+.subhead-Reroute {
+  height: 24px;
+  border-bottom: 2px solid #D0021B;
+  padding-bottom: 12px;
+}
+
+.subhead-OutofService {
+  height: 24px;
+  border-bottom: 2px solid #A9A8A8;
+  padding-bottom: 12px;
+}
+
+.footer{
+  font-size: 12px;
 }
 
 div#navbarContainer {
